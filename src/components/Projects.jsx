@@ -144,7 +144,7 @@ const Projects = () => {
                                     <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/20 to-transparent"></div>
 
                                     {/* Action Buttons (Floating on Image) */}
-                                    <div className="absolute top-4 right-4 flex gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
+                                    <div className="absolute top-4 right-4 flex gap-3 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 z-20">
                                         <motion.a
                                             whileHover={{ scale: 1.1 }}
                                             whileTap={{ scale: 0.9 }}
@@ -170,7 +170,7 @@ const Projects = () => {
                                     </div>
                                 </div>
 
-                                <div className="p-8 relative z-10 flex flex-col flex-1">
+                                <div className="p-6 md:p-8 relative z-10 flex flex-col flex-1">
                                     <div className="flex flex-wrap gap-2 mb-4">
                                         {(Array.isArray(project.category) ? project.category : [project.category]).map((cat) => (
                                             <div key={cat} className="text-[10px] font-bold font-mono tracking-wider text-purple-400 uppercase bg-purple-400/10 px-3 py-1 rounded-full border border-purple-400/20">
@@ -179,7 +179,7 @@ const Projects = () => {
                                         ))}
                                     </div>
 
-                                    <h3 className="text-3xl font-bold text-white mb-4 font-['Space_Grotesk'] group-hover:text-purple-400 transition-colors">
+                                    <h3 className="text-2xl md:text-3xl font-bold text-white mb-4 font-['Space_Grotesk'] group-hover:text-purple-400 transition-colors">
                                         {project.title}
                                     </h3>
 
