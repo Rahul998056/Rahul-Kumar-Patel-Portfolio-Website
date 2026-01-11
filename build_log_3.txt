@@ -1,0 +1,29 @@
+
+> my-portfolio@0.0.0 build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32m✓[39m 441 modules transformed.
+[31m✗[39m Build failed in 3.96s
+[31merror during build:
+[31msrc/components/Skills.jsx (8:243): "SiMicrosoftsqlserver" is not exported by "node_modules/react-icons/si/index.mjs", imported by "src/components/Skills.jsx".[31m
+file: [36mC:/Users/HP/OneDrive/Desktop/my-portfolio/src/components/Skills.jsx:8:243[31m
+[33m
+ 6: } from "react-icons/fa";
+ 7: import {
+ 8:     SiRedux, SiMui, SiFlutter, SiDart, SiFirebase, SiDjango, SiFlask, SiMysql, SiMongodb, SiPostgresql, SiKubernetes, SiJenkins, SiTensorflow, SiKeras, SiJupyter, SiScikitlearn, SiPostman, SiNetlify, SiCanva, SiKotlin, SiDotnet, SiSpringboot, SiMicrosof...
+                                                                                                                                                                                                                                                       ^
+ 9: } from "react-icons/si";
+10: import { TbBrandNextjs, TbBrandCSharp } from "react-icons/tb";
+[31m
+    at getRollupError (file:///C:/Users/HP/OneDrive/Desktop/my-portfolio/node_modules/rollup/dist/es/shared/parseAst.js:401:41)
+    at error (file:///C:/Users/HP/OneDrive/Desktop/my-portfolio/node_modules/rollup/dist/es/shared/parseAst.js:397:42)
+    at Module.error (file:///C:/Users/HP/OneDrive/Desktop/my-portfolio/node_modules/rollup/dist/es/shared/node-entry.js:17022:16)
+    at Module.traceVariable (file:///C:/Users/HP/OneDrive/Desktop/my-portfolio/node_modules/rollup/dist/es/shared/node-entry.js:17478:29)
+    at ModuleScope.findVariable (file:///C:/Users/HP/OneDrive/Desktop/my-portfolio/node_modules/rollup/dist/es/shared/node-entry.js:15141:39)
+    at Identifier.bind (file:///C:/Users/HP/OneDrive/Desktop/my-portfolio/node_modules/rollup/dist/es/shared/node-entry.js:5462:40)
+    at CallExpression.bind (file:///C:/Users/HP/OneDrive/Desktop/my-portfolio/node_modules/rollup/dist/es/shared/node-entry.js:2825:28)
+    at CallExpression.bind (file:///C:/Users/HP/OneDrive/Desktop/my-portfolio/node_modules/rollup/dist/es/shared/node-entry.js:12172:15)
+    at Property.bind (file:///C:/Users/HP/OneDrive/Desktop/my-portfolio/node_modules/rollup/dist/es/shared/node-entry.js:2829:23)
+    at ObjectExpression.bind (file:///C:/Users/HP/OneDrive/Desktop/my-portfolio/node_modules/rollup/dist/es/shared/node-entry.js:2825:28)[39m
