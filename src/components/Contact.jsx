@@ -17,7 +17,6 @@ const Contact = () => {
         e.preventDefault();
         setIsSubmitting(true);
 
-        // ✅ I have added your IDs here!
         const SERVICE_ID = "service_ofys3z9";
         const TEMPLATE_ID = "template_ekqlp9b";
         const PUBLIC_KEY = "nRGn6pEL1PQIyv5HN";
