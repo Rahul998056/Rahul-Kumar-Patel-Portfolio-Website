@@ -21,7 +21,7 @@ function Experience() {
             role: "Full-Stack Developer Intern",
             company: "Sumati.IO",
             logo: sumatiLogo,
-            period: "Jun 2025 – Present",
+            period: "June 2025 – March 2026",
             description: "Developing robust production code using C#, .NET, and React. Gaining hands-on experience with Docker and Kubernetes for containerization, and contributing to back-end architecture improvements while collaborating via Git/GitHub.",
         },
         {
