@@ -23,7 +23,7 @@ const projects = [
         tech: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
         category: "Frontend",
         image: portfolioImg,
-        github: "https://github.com/Rahul998056/Rahul-Kumar-Patel-Portfolio-Website",
+        github: "https://rahulkumarpatel.vercel.app/",
         demo: "#",
         gradient: "from-purple-500/20 to-blue-500/20"
     },
@@ -38,7 +38,7 @@ const projects = [
         gradient: "from-emerald-500/20 to-teal-500/20"
     },
     {
-        title: "Perpetual Fix API",
+        title: "Multi-Exchange Fix Protocol",
         description: "A specialized C# backend API built for high-performance data processing and service orchestration.",
         tech: ["C#", ".NET Core", "REST API", "Entity Framework"],
         category: "Backend",

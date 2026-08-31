@@ -18,7 +18,7 @@ function Experience() {
 
     const experiences = [
         {
-            role: "Full-Stack Developer Intern",
+            role: "Full-Stack Developer",
             company: "Sumati.IO",
             logo: sumatiLogo,
             period: "June 2025 – March 2026",
