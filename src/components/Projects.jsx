@@ -38,7 +38,7 @@ const projects = [
         gradient: "from-emerald-500/20 to-teal-500/20"
     },
     {
-        title: "Multi-Exchange Fix Protocol",
+        title: "Multi-Exchange Fix-Protocol",
         description: "A specialized C# backend API built for high-performance data processing and service orchestration.",
         tech: ["C#", ".NET Core", "REST API", "Entity Framework"],
         category: "Backend",
